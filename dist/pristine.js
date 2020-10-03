@@ -5,18 +5,18 @@
 }(this, (function () { 'use strict';
 
     var lang = {
-        required: "This field is required",
-        email: "This field requires a valid e-mail address",
-        number: "This field requires a number",
-        integer: "This field requires an integer value",
-        url: "This field requires a valid website URL",
-        tel: "This field requires a valid telephone number",
-        maxlength: "This fields length must be < ${1}",
-        minlength: "This fields length must be > ${1}",
-        min: "Minimum value for this field is ${1}",
-        max: "Maximum value for this field is ${1}",
-        pattern: "Please match the requested format",
-        equals: "The two fields do not match"
+        required: "Esse campo é obrigatório",
+        email: "Por favor informe um endereço de e-mail válido",
+        number: "Você precisa informar um número",
+        integer: "Esse campo requer um número",
+        url: "Por favor informe uma URL válida",
+        tel: "Por favor informe um telefone válido",
+        maxlength: "Por favor informe até ${1} caracteres",
+        minlength: "Por favor informe pelo menos ${1} caracteres",
+        min: "O valor mínimo para esse campo é ${1}",
+        max: "O valor máximo para esse campo é ${1}",
+        pattern: "Esse formato é inválido",
+        equals: "Deve ser igual ao campo anterior"
     };
 
     function findAncestor(el, cls) {
